@@ -135,8 +135,8 @@ const services = [
   },
   {
     icon: icons.ai,
-    title: 'AI-Powered Systems',
-    description: 'Smart assistants, automation, analytics, and document workflows added where they can save time and improve service.',
+    title: 'AI Automation & Agentic AI Solutions',
+    description: 'AI assistants, workflow automation, document processing, customer support bots, analytics, and agentic systems that help complete business tasks faster.',
   },
 ];
 
