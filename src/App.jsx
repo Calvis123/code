@@ -1,10 +1,17 @@
 import SectionHeader from './components/SectionHeader.jsx';
 import ServiceCard from './components/ServiceCard.jsx';
-import pathwaysLogo from './assets/barak-pathways-logo.png';
+import pathwaysLogo from './assets/pathway-logo.png';
 import codeHero from './assets/code.jpg';
 
-const whatsAppLink =
-  'https://wa.me/254711945375?text=Hello%20Web%20%26%20Software%20Solutions,%20I%20would%20like%20to%20request%20a%20quote%20for%20a%20website%20or%20software%20system.';
+const whatsAppMessage = `Hello Pathway Technologies,
+
+I hope you are doing well. I would like to request a quotation for the development of a website or software system. Kindly provide information regarding your services, estimated costs, and project timelines.
+
+I look forward to your response.
+
+Thank you.`;
+
+const whatsAppLink = `https://wa.me/254739083768?text=${encodeURIComponent(whatsAppMessage)}`;
 
 function Icon({ children }) {
   return (
@@ -170,9 +177,13 @@ function App() {
       <header className="sticky top-0 z-40 border-b border-[#d7eaff] bg-white/90 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-5 px-5 py-4 sm:px-6 lg:px-8">
           <a href="#home" className="flex items-center gap-3">
-            <img src={pathwaysLogo} alt="Barak Pathways logo" className="h-10 w-auto sm:h-12" />
+            <img
+              src={pathwaysLogo}
+              alt="Pathway Technologies logo"
+              className="h-12 w-auto origin-left scale-125 sm:h-14 sm:scale-150"
+            />
             <span className="hidden text-sm font-bold uppercase tracking-[0.16em] text-[#071c33] sm:inline">
-              Barak Pathways
+              Pathway Technologies
             </span>
           </a>
           <nav className="hidden items-center gap-6 text-sm font-semibold text-[#42617d] lg:flex">
@@ -325,9 +336,9 @@ function App() {
                 >
                   Start on WhatsApp
                 </a>
-                <p className="text-sm text-white/70">Phone/WhatsApp: 0711945375</p>
-                <a href="mailto:codehub@barakpathways.com" className="block text-sm font-semibold text-[#70c9ff]">
-                  codehub@barakpathways.com
+                <p className="text-sm text-white/70">Phone/WhatsApp: +254739083768</p>
+                <a href="mailto:info@pathway.co.ke" className="block text-sm font-semibold text-[#70c9ff]">
+                  info@pathway.co.ke
                 </a>
               </div>
             </div>
