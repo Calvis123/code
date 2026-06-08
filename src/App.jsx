@@ -150,7 +150,7 @@ const services = [
 const projectCategories = [
   {
     title: 'Launch Package',
-    description: 'Best for small businesses, shops, churches, portfolios, and personal brands that need a professional online presence quickly.',
+    description: 'Best for small businesses, shops, portfolios, and personal brands that need a professional online presence quickly.',
     features: ['Responsive pages', 'Contact forms', 'WhatsApp integration', 'SEO-ready structure', 'Fast loading design'],
   },
   {
